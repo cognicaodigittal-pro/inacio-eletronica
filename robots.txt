@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://inacioeletronica.com.br/sitemap.xml
