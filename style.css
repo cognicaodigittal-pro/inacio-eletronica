@@ -2,14 +2,16 @@
    1. Variáveis e Reset
    ========================================= */
 :root {
-    --primary-color: #2E7D32; /* Verde Floresta */
+    --primary-color: #2E7D32;
+    /* Verde Floresta */
     --primary-dark: #1B5E20;
-    --accent-color: #FFD600; /* Amarelo Vibrante */
+    --accent-color: #FFD600;
+    /* Amarelo Vibrante */
     --text-color: #333333;
     --light-bg: #F5F5F5;
     --white: #FFFFFF;
     --footer-bg: #1a1a1a;
-    --shadow: 0 4px 6px rgba(0,0,0,0.1);
+    --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     --radius: 8px;
     --container-width: 1100px;
     --header-height: 70px;
@@ -29,7 +31,8 @@ html {
 body {
     color: var(--text-color);
     line-height: 1.6;
-    padding-top: var(--header-height); /* Espaço para o header fixo */
+    padding-top: var(--header-height);
+    /* Espaço para o header fixo */
 }
 
 a {
@@ -95,15 +98,17 @@ img {
 
 .btn:hover {
     transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
-.btn-primary, .btn-whatsapp {
+.btn-primary,
+.btn-whatsapp {
     background-color: var(--primary-color);
     color: white;
 }
 
-.btn-primary:hover, .btn-whatsapp:hover {
+.btn-primary:hover,
+.btn-whatsapp:hover {
     background-color: var(--primary-dark);
 }
 
@@ -171,7 +176,8 @@ img {
 }
 
 .nav-desktop {
-    display: none; /* Mobile first hidden */
+    display: none;
+    /* Mobile first hidden */
 }
 
 /* Menu Toggle (Hamburger) */
@@ -215,7 +221,7 @@ img {
 
 .mobile-menu.active {
     transform: translateY(0);
-    box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
 }
 
 .mobile-menu a {
@@ -262,6 +268,15 @@ img {
     max-width: 600px;
 }
 
+.hero-img {
+    max-width: 100%;
+    height: auto;
+    width: 180px;
+    border-radius: var(--radius);
+    margin-bottom: 1rem;
+    box-shadow: var(--shadow);
+}
+
 .hero-cta-group {
     display: flex;
     flex-direction: column;
@@ -302,7 +317,7 @@ img {
     background: var(--white);
     padding: 25px;
     border-radius: var(--radius);
-    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
     border-left: 4px solid var(--primary-color);
     transition: transform 0.2s;
 }
@@ -374,7 +389,7 @@ img {
     background: white;
     padding: 20px;
     border-radius: var(--radius);
-    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
     font-style: italic;
     border: 1px solid #eee;
 }
@@ -483,12 +498,13 @@ img {
     right: 20px;
     width: 60px;
     height: 60px;
-    background-color: #25D366; /* Verde oficial WhatsApp */
+    background-color: #25D366;
+    /* Verde oficial WhatsApp */
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
     z-index: 2000;
     transition: transform 0.3s;
 }
@@ -546,6 +562,10 @@ img {
 
     .hero h1 {
         font-size: 3.5rem;
+    }
+
+    .hero-img {
+        width: 280px;
     }
 
     .hero-cta-group {
