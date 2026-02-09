@@ -268,15 +268,6 @@ img {
     max-width: 600px;
 }
 
-.hero-img {
-    max-width: 100%;
-    height: auto;
-    width: 180px;
-    border-radius: var(--radius);
-    margin-bottom: 1rem;
-    box-shadow: var(--shadow);
-}
-
 .hero-cta-group {
     display: flex;
     flex-direction: column;
@@ -562,10 +553,6 @@ img {
 
     .hero h1 {
         font-size: 3.5rem;
-    }
-
-    .hero-img {
-        width: 280px;
     }
 
     .hero-cta-group {
