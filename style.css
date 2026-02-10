@@ -162,10 +162,12 @@ img {
 }
 
 .logo a {
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: var(--primary-color);
     display: block;
+}
+
+.logo-img {
+    height: 45px;
+    width: auto;
 }
 
 .logo-sub {
